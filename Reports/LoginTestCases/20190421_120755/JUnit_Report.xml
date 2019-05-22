@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTestCases" time="58" tests="0" failures="0" errors="3">
+   <testsuite name="LoginTestCases" tests="0" failures="0" errors="3" time="58" timestamp="2019-04-21 12:08:04" hostname="Mohamed - Borhan" id="Test Suites/LoginTestCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mohamed\\Katalon Studio\\AMAN\\Reports\\LoginTestCases\\20190421_120755"/>
+         <property name="logFiles" value="C:\\Users\\Mohamed\\Katalon Studio\\AMAN\\Reports\\LoginTestCases\\20190421_120755\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mohamed - Borhan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="a8feae4f3375570e0e9d7527ae07d3a0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AddLead" classname="Test Cases/AddLead" status="ERROR">
+         <error type="ERROR" message="Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-21 12:08:04 - [TEST_CASE][ERROR] - Test Cases/AddLead: Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+
+
+2019-04-21 12:08:05 - [TEST_STEP][PASSED] - openBrowser("https://staging.clickhook.io/login"): Browser is opened with url: 'https://staging.clickhook.io/login'
+
+2019-04-21 12:08:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-21 12:08:05 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-21 12:08:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.clickhook.io/login'
+
+2019-04-21 12:08:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-21 12:08:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-21 12:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Log In_identification"), username): Text 'testb@test.com' is set on object 'Object Repository/Page_Login/input_Log In_identification'
+
+2019-04-21 12:08:40 - [MESSAGE][PASSED] - Text 'testb@test.com' is set on object 'Object Repository/Page_Login/input_Log In_identification'
+
+2019-04-21 12:08:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Log In_password"), password): Text '12345' is set on object 'Object Repository/Page_Login/input_Log In_password'
+
+2019-04-21 12:08:40 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Page_Login/input_Log In_password'
+
+2019-04-21 12:08:40 - [TEST_STEP][ERROR] - sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)): sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+
+
+2019-04-21 12:08:40 - [MESSAGE][ERROR] - sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-21 12:08:04 - [TEST_CASE][ERROR] - Test Cases/AddLead: Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddLead" classname="Test Cases/AddLead" status="ERROR">
+         <error type="ERROR" message="Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-21 12:08:40 - [TEST_CASE][ERROR] - Test Cases/AddLead: Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+
+
+2019-04-21 12:08:40 - [TEST_STEP][PASSED] - openBrowser("https://staging.clickhook.io/login"): Browser is opened with url: 'https://staging.clickhook.io/login'
+
+2019-04-21 12:08:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-21 12:08:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-21 12:08:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.clickhook.io/login'
+
+2019-04-21 12:08:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-21 12:08:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-21 12:08:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Log In_identification"), username): Text 'test@test.com' is set on object 'Object Repository/Page_Login/input_Log In_identification'
+
+2019-04-21 12:08:51 - [MESSAGE][PASSED] - Text 'test@test.com' is set on object 'Object Repository/Page_Login/input_Log In_identification'
+
+2019-04-21 12:08:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Log In_password"), password): Text '2222222' is set on object 'Object Repository/Page_Login/input_Log In_password'
+
+2019-04-21 12:08:51 - [MESSAGE][PASSED] - Text '2222222' is set on object 'Object Repository/Page_Login/input_Log In_password'
+
+2019-04-21 12:08:51 - [TEST_STEP][ERROR] - sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)): sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+
+
+2019-04-21 12:08:51 - [MESSAGE][ERROR] - sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-21 12:08:40 - [TEST_CASE][ERROR] - Test Cases/AddLead: Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddLead" classname="Test Cases/AddLead" status="ERROR">
+         <error type="ERROR" message="Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-21 12:08:51 - [TEST_CASE][ERROR] - Test Cases/AddLead: Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+
+
+2019-04-21 12:08:51 - [TEST_STEP][PASSED] - openBrowser("https://staging.clickhook.io/login"): Browser is opened with url: 'https://staging.clickhook.io/login'
+
+2019-04-21 12:08:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-21 12:08:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-21 12:08:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.clickhook.io/login'
+
+2019-04-21 12:08:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-21 12:09:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-21 12:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Log In_identification"), username): Text 'testoo@test.com' is set on object 'Object Repository/Page_Login/input_Log In_identification'
+
+2019-04-21 12:09:01 - [MESSAGE][PASSED] - Text 'testoo@test.com' is set on object 'Object Repository/Page_Login/input_Log In_identification'
+
+2019-04-21 12:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Log In_password"), password): Text '123444' is set on object 'Object Repository/Page_Login/input_Log In_password'
+
+2019-04-21 12:09:01 - [MESSAGE][PASSED] - Text '123444' is set on object 'Object Repository/Page_Login/input_Log In_password'
+
+2019-04-21 12:09:01 - [TEST_STEP][ERROR] - sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)): sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)
+
+
+2019-04-21 12:09:01 - [MESSAGE][ERROR] - sendKeys(findTestObject("Page_Login/input_Log In_password"), Keys.chord(ENTER)) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-21 12:08:51 - [TEST_CASE][ERROR] - Test Cases/AddLead: Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-21 12:08:04 - [TEST_SUITE][ERROR] - LoginTestCases: Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-21 12:08:04 - [TEST_SUITE][ERROR] - LoginTestCases: Test Cases/AddLead FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1555514716663
+	at AddLead.run(AddLead:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555841280593.run(TempTestSuite1555841280593.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

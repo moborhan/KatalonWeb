@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GetQuote,Chrome 73.0.3683.103,,2019-04-23 15:11:31,2019-04-23 15:13:18,1m - 46.295s,FAILED
+,,,,,,
+Test Cases/AddLead,Chrome 73.0.3683.103,,2019-04-23 15:11:32,2019-04-23 15:13:11,1m - 39.536s,PASSED
+Start listener action : sampleBeforeTestSuite,Chrome 73.0.3683.103,,2019-04-23 15:11:32,2019-04-23 15:11:32,0.025s,ERROR
+"openBrowser(""https://staging.clickhook.io/login"")",Chrome 73.0.3683.103,,2019-04-23 15:11:32,2019-04-23 15:12:37,1m - 5.201s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-23 15:12:37,2019-04-23 15:12:40,2.382s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_identification""), username)",Chrome 73.0.3683.103,,2019-04-23 15:12:40,2019-04-23 15:12:46,6.417s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_password""), password)",Chrome 73.0.3683.103,,2019-04-23 15:12:46,2019-04-23 15:12:46,0.309s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_Log In_password""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-23 15:12:46,2019-04-23 15:12:46,0.088s,PASSED
+"click(findTestObject(""Object Repository/Page_All Leads/button_Add a lead""))",Chrome 73.0.3683.103,,2019-04-23 15:12:46,2019-04-23 15:12:49,2.892s,PASSED
+"setText(findTestObject(""Object Repository/LeadDetails/LeadEmail""), leadEmail)",Chrome 73.0.3683.103,,2019-04-23 15:12:49,2019-04-23 15:12:50,0.280s,PASSED
+"setText(findTestObject(""Object Repository/LeadDetails/AddLeadName""), leadName)",Chrome 73.0.3683.103,,2019-04-23 15:12:50,2019-04-23 15:12:50,0.262s,PASSED
+"setText(findTestObject(""Object Repository/LeadDetails/Company""), leadCompany)",Chrome 73.0.3683.103,,2019-04-23 15:12:50,2019-04-23 15:12:50,0.174s,PASSED
+"setText(findTestObject(""Object Repository/LeadDetails/Phone""), leadPhone)",Chrome 73.0.3683.103,,2019-04-23 15:12:50,2019-04-23 15:12:50,0.224s,PASSED
+"click(findTestObject(""Object Repository/LeadDetails/LeadWorkFlow""))",Chrome 73.0.3683.103,,2019-04-23 15:12:50,2019-04-23 15:12:50,0.105s,PASSED
+"click(findTestObject(""Object Repository/LeadDetails/workFlowsNames""))",Chrome 73.0.3683.103,,2019-04-23 15:12:50,2019-04-23 15:12:51,0.145s,PASSED
+"click(findTestObject(""Object Repository/LeadDetails/AddButton""))",Chrome 73.0.3683.103,,2019-04-23 15:12:51,2019-04-23 15:12:51,0.108s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Page_NewName - All Leads/span_New Comapny""), ""text"", ""testb@test.com"", 20)",Chrome 73.0.3683.103,,2019-04-23 15:12:51,2019-04-23 15:13:11,20.623s,PASSED
+,,,,,,
+Test Cases/startQuote,Chrome 73.0.3683.103,,2019-04-23 15:13:12,2019-04-23 15:13:18,5.798s,FAILED
+Start listener action : sampleBeforeTestSuite,Chrome 73.0.3683.103,,2019-04-23 15:13:12,2019-04-23 15:13:12,0.002s,ERROR
+"click(findTestObject(""Object Repository/quoteManagment/startQuote""))",Chrome 73.0.3683.103,,2019-04-23 15:13:13,2019-04-23 15:13:13,0.491s,PASSED
+"verifyElementChecked(findTestObject(""Object Repository/quoteManagment/applicantCardView""), 10)",Chrome 73.0.3683.103,,2019-04-23 15:13:13,2019-04-23 15:13:18,4.605s,FAILED

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AddLead,Chrome 73.0.3683.103,,2019-04-21 13:20:56,2019-04-21 13:23:00,2m - 3.995s,FAILED
+,,,,,,
+Test Cases/AddLead,Chrome 73.0.3683.103,,2019-04-21 13:20:56,2019-04-21 13:21:47,50.769s,FAILED
+"openBrowser(""https://staging.clickhook.io/login"")",Chrome 73.0.3683.103,,2019-04-21 13:20:57,2019-04-21 13:21:05,8.115s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-21 13:21:05,2019-04-21 13:21:06,1.141s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_identification""), username)",Chrome 73.0.3683.103,,2019-04-21 13:21:06,2019-04-21 13:21:06,0.240s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_password""), password)",Chrome 73.0.3683.103,,2019-04-21 13:21:06,2019-04-21 13:21:06,0.250s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_Log In_password""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-21 13:21:06,2019-04-21 13:21:06,0.127s,PASSED
+"click(findTestObject(""Object Repository/Page_All Leads/button_Add a lead""))",Chrome 73.0.3683.103,,2019-04-21 13:21:06,2019-04-21 13:21:09,2.463s,PASSED
+"click(findTestObject(""Object Repository/Page_All Leads/div_Email""))",Chrome 73.0.3683.103,,2019-04-21 13:21:09,2019-04-21 13:21:47,38.104s,FAILED
+,,,,,,
+Test Cases/AddLead,Chrome 73.0.3683.103,,2019-04-21 13:21:47,2019-04-21 13:22:26,38.942s,FAILED
+"openBrowser(""https://staging.clickhook.io/login"")",Chrome 73.0.3683.103,,2019-04-21 13:21:47,2019-04-21 13:21:53,6.121s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-21 13:21:53,2019-04-21 13:21:54,1.175s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_identification""), username)",Chrome 73.0.3683.103,,2019-04-21 13:21:54,2019-04-21 13:21:55,0.235s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_password""), password)",Chrome 73.0.3683.103,,2019-04-21 13:21:55,2019-04-21 13:21:55,0.188s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_Log In_password""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-21 13:21:55,2019-04-21 13:21:55,0.108s,PASSED
+"click(findTestObject(""Object Repository/Page_All Leads/button_Add a lead""))",Chrome 73.0.3683.103,,2019-04-21 13:21:55,2019-04-21 13:22:26,31.092s,FAILED
+,,,,,,
+Test Cases/AddLead,Chrome 73.0.3683.103,,2019-04-21 13:22:26,2019-04-21 13:22:59,33.480s,FAILED
+"openBrowser(""https://staging.clickhook.io/login"")",Chrome 73.0.3683.103,,2019-04-21 13:22:26,2019-04-21 13:22:33,6.584s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-21 13:22:33,2019-04-21 13:22:34,1.128s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_identification""), username)",Chrome 73.0.3683.103,,2019-04-21 13:22:34,2019-04-21 13:22:34,0.160s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_password""), password)",Chrome 73.0.3683.103,,2019-04-21 13:22:34,2019-04-21 13:22:34,0.129s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_Log In_password""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-21 13:22:34,2019-04-21 13:22:34,0.063s,PASSED
+"click(findTestObject(""Object Repository/Page_All Leads/button_Add a lead""))",Chrome 73.0.3683.103,,2019-04-21 13:22:34,2019-04-21 13:22:59,25.386s,FAILED

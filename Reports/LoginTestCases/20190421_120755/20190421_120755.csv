@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTestCases,Chrome 73.0.3683.103,,2019-04-21 12:08:04,2019-04-21 12:09:02,58.024s,ERROR
+,,,,,,
+Test Cases/AddLead,Chrome 73.0.3683.103,,2019-04-21 12:08:04,2019-04-21 12:08:40,36.190s,ERROR
+"openBrowser(""https://staging.clickhook.io/login"")",Chrome 73.0.3683.103,,2019-04-21 12:08:05,2019-04-21 12:08:38,33.700s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-21 12:08:38,2019-04-21 12:08:39,1.135s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_identification""), username)",Chrome 73.0.3683.103,,2019-04-21 12:08:39,2019-04-21 12:08:40,0.688s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_password""), password)",Chrome 73.0.3683.103,,2019-04-21 12:08:40,2019-04-21 12:08:40,0.138s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_Log In_password""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-21 12:08:40,2019-04-21 12:08:40,0.170s,ERROR
+,,,,,,
+Test Cases/AddLead,Chrome 73.0.3683.103,,2019-04-21 12:08:40,2019-04-21 12:08:51,10.793s,ERROR
+"openBrowser(""https://staging.clickhook.io/login"")",Chrome 73.0.3683.103,,2019-04-21 12:08:40,2019-04-21 12:08:49,9.081s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-21 12:08:49,2019-04-21 12:08:51,1.254s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_identification""), username)",Chrome 73.0.3683.103,,2019-04-21 12:08:51,2019-04-21 12:08:51,0.295s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_password""), password)",Chrome 73.0.3683.103,,2019-04-21 12:08:51,2019-04-21 12:08:51,0.135s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_Log In_password""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-21 12:08:51,2019-04-21 12:08:51,0.006s,ERROR
+,,,,,,
+Test Cases/AddLead,Chrome 73.0.3683.103,,2019-04-21 12:08:51,2019-04-21 12:09:01,10.054s,ERROR
+"openBrowser(""https://staging.clickhook.io/login"")",Chrome 73.0.3683.103,,2019-04-21 12:08:51,2019-04-21 12:08:59,8.119s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-21 12:08:59,2019-04-21 12:09:01,1.496s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_identification""), username)",Chrome 73.0.3683.103,,2019-04-21 12:09:01,2019-04-21 12:09:01,0.258s,PASSED
+"setText(findTestObject(""Page_Login/input_Log In_password""), password)",Chrome 73.0.3683.103,,2019-04-21 12:09:01,2019-04-21 12:09:01,0.156s,PASSED
+"sendKeys(findTestObject(""Page_Login/input_Log In_password""), Keys.chord(ENTER))",Chrome 73.0.3683.103,,2019-04-21 12:09:01,2019-04-21 12:09:01,0.008s,ERROR
